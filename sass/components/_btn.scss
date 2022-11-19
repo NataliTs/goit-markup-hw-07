@@ -1,7 +1,5 @@
 .button {
   font-family: inherit;
-  color: var(--white-color);
-  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -12,6 +10,8 @@
   display: block;
   margin-top: 30px;
   border: none;
+  color: var(--white-color);
+  background-color: var(--accent-color);
   transition: background-color var(--transition-duration)
     var(--transition-timing-function);
   &:hover,

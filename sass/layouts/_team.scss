@@ -31,16 +31,16 @@
   /* outline: 2px solid red; */
 }
 
-.people__soc__list {
+.social {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-.people__soc__item {
+.social__item {
   width: 44px;
   height: 44px;
 }
-.people__soc__link {
+.social__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -57,7 +57,7 @@
     color: var(--white-color);
   }
 }
-.people__soc__icon {
+.social__icon {
   fill: currentColor;
 }
 
